@@ -1,0 +1,1962 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="changeToElementContextMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="changeToElementContextMenuItem.Text" xml:space="preserve">
+    <value>要素に変換(&amp;E)</value>
+  </data>
+  <data name="changeToElementContextMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードをXML要素に変更します</value>
+  </data>
+  <data name="ctxcutToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFhSURBVDhPrZDNSwJBGMb378lLp8DbRofALnvdSyxEsnba
+        m17ChUD6lD0kSJIIJaKQbCRJobWshF0y+wJdytzMEII8dPD4NDsugVDbBj4w8M47z/ObeYcZu65rD8gd
+        FmFvqUzTRDqXH+n9qtduB0o8hV6vSwOfgwFUVcNZ5cIdwJISV3GsVWnA7PUhSDKM5p17QKGgQ1FS6Ly0
+        oF3WwQkSjMate8Dp+RUdI5s/giQr4HnRfdjSo9GgQevp1u2hZfl/AEtiMELDnCijWKq4BzRb74hmP8DJ
+        bawkG+BCdfDhG2ylDZSqT86ge+MNYqwPPtKGT9jH7MIOfEGdQlhRw+Zu2RkQTj+DW20Ts4pJTkEgnKFh
+        +5ixenb5s6ywXX6bRwCs9AeAzG2XBDD8+aV1HaxAXsQK8Hi8zoDAWm1oJrdPzc1Tc/KgDO+0HxNkRRMZ
+        Z0Aie4IZf4wEFrGxvedsHo8Y5gtlstxyKLnfnwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ctxcutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ctxcutToolStripMenuItem.Text" xml:space="preserve">
+    <value>切り取り(&amp;C)</value>
+  </data>
+  <data name="ctxcutToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードをクリップボード（およびその子）にコピーし、ノードをツリーから削除します</value>
+  </data>
+  <data name="ctxMenuItemCopy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHgSURBVDhPvZHdS1pxGMfPn7IKieq63Y/RKw0aFF1ssEEv
+        dOVFXXUVFQ3Wlg4H2dSo7A21jnUiKiPFylwttMy9GXMNNgUrzinLrGN98zxaVgu7GOwLn5vf+X0/D8/v
+        MP8cbuEbJFiblzDMuDDAfcQbLYfklfSRyrejn3CirnUID0tr7peYrd5kLZHY2Tm6hudgcXjxrEF5v8Qw
+        66aixQew64DHL+C9fhrskgDTAg+jnUffLA/V+B7xojNwUzjAOUkg5eQ0BuEgikAoTILbaR/ZQX6tg0jW
+        GUZnstPHXscpFDMCWtg/aOz3Y3h+l86vp0ETArciIK9qgiCBOr6vtPdRRMQOH8F2YB9f/LvQTQWp1MHG
+        CM/WPl4qgsitmkROxSiyywcTAmnf46h4NVmu86Fe/RnvjNskuIxwKGLr9zEcmwfQsGuQPelJCYRwFF9/
+        huD+HoDT8wu2Tz/Q2pv4vc0jYcjVQTx/68PTtg1Cw65CVtqdEuSXVP9Fo2qDBGJ8vRAvYtN/BKtLgHlx
+        Dx9GncgqUqUe8q7UtK+Q4PrkS7pNy8gsUKQXVDbZETk5g27cBa15DZqxVZosldWGJWQ8fp1eUCS3xF/b
+        SGSX6yEr0yKruAuZhcp4uQMPHr1KL/hPYZgL78LfVeQiZg4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ctxMenuItemCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ctxMenuItemCopy.Text" xml:space="preserve">
+    <value>コピー(&amp;O)</value>
+  </data>
+  <data name="ctxMenuItemCopy.ToolTipText" xml:space="preserve">
+    <value>選択したノードをクリップボードにコピーします</value>
+  </data>
+  <data name="ctxMenuItemPaste.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPtZJdSFNhHMYPdGE3RR/UVVcF0U0UEVQXGYWt
+        sNlikdii5SK2SckmS9tGas0cunRzadoW+THUprMSpUnREBqOvmdsRh8SOSPXsnY2N+eyeDrn3UaujCDo
+        gYcD73mf3/+Dl/ovcvZr4bihQW+LCrL8fUgez6+edgPmuqX2CIL+DkT8V+EbqUGJmANDpQKXdWoYK4uJ
+        k9GE2FCMtiEe6kYs2AlLkwLRyTaUSHh4MaTE2VNcKEWb4Xcew6R9NWTC/b8D2HA8ZEWj9ijcrhrQ7+sx
+        MaLGW9dx9Jl5kAgy0VG6Ck8NFAoO/zJSd1ttAkBfh65UiHJFHtSFuThTwIdCzINcxIVUkIU62RoCyMvO
+        TAd0NuswQ3dhJmBCdLwKgeeF8LYtJ/a0LoO7aREeGTNImHXWto3pAItJi+lAC6bHKhB9eRKRZwdB9y+G
+        vtWOKlMvzl3qglJngVxjhkRlhLCoOh3Q3KDBlM+IyIgYU4+5CN/fhI+3VpBwSvHZbwiGYhibCCJXeh45
+        +eqfELO+DPSrCoQfchAeXI/QwEr4WilSmVXzTSexyeqAZ9RPwneHvNjDFyUgDdUqfB4+jZBjHejbSxGw
+        ZWD0GkXa/jr7HV/CTOUPQXje+OEafodsgRwcJrxr7wFkbt8Bqu5CMQIPpEx4CT71LMR4+wJ4GynImJnZ
+        tlMdXGE6qLcMoG/QS76st25YC+pieRF5IKktpyxmFja38j3XaxK23XHDan+SDtCXnWBeGA8i/m7k7NxC
+        frDbZmdOVZvPBPAnHWK2zV74m5PX/1UU9QOTNfjZ1V1+MwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ctxMenuItemPaste.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ctxMenuItemPaste.Text" xml:space="preserve">
+    <value>貼り付け(&amp;P)</value>
+  </data>
+  <data name="ctxMenuItemPaste.ToolTipText" xml:space="preserve">
+    <value>選択したノードの子としてクリップボードの内容を貼り付けます</value>
+  </data>
+  <data name="toolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 6</value>
+  </data>
+  <data name="deleteToolStripMenuItem1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAYAAADwMZRfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFtSURBVDhPrY89T8JQFIZ7/0H/AT9A6/dgxK/NyKjxA6JO
+        LrojfszuxjC6ORhdTBzcNLKDJpoYgViCpRBESlssBMG8ntZKJBYJ6Ju8ubn3nPO853L/pkowgOrqKIyb
+        EOyn9lWb5PE+xFCd4FGMdAgyToJ4G2SWKwQy73bph8pUqy0IznU9dAZjnAADzHLxuBGkp0WUdnyo0cal
+        X0I4nb6iTbug9bNP2yD9OgRjXkCZtnw9P2wO+JImi1DmBCgEMV3Y9kGnUx/joRHMbmstVXtBfsuHXB+r
+        W20HYKpAA5kpF+ReVneWoHa5tZ73ApBoyHR6VkDuYBdPIzySPQyZzRYgVY5BWnFDFJjl1LoHqhy3hpTw
+        JRIEEgmU2vA6g/LhC8SGeTx0M8tJh0YlGkFiRkCcAiQnUGzJjbsuZjnhX2y6coE2E9c8uKegx2V3Y1/2
+        6hRRAslH+00B3yX6vbilQDPcfupMZmCctrKvfxXHfQCM6/rOB2jPzgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="deleteToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="deleteToolStripMenuItem1.Text" xml:space="preserve">
+    <value>削除(&amp;L)</value>
+  </data>
+  <data name="deleteToolStripMenuItem1.ToolTipText" xml:space="preserve">
+    <value>選択したノードを削除します</value>
+  </data>
+  <data name="insertToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="insertToolStripMenuItem1.Text" xml:space="preserve">
+    <value>挿入(&amp;I)</value>
+  </data>
+  <data name="insertToolStripMenuItem1.ToolTipText" xml:space="preserve">
+    <value>現在選択されているノードと同じタイプの新しいノードを挿入します</value>
+  </data>
+  <data name="renameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="renameToolStripMenuItem.Text" xml:space="preserve">
+    <value>名称変更(&amp;R)</value>
+  </data>
+  <data name="duplicateToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="duplicateToolStripMenuItem1.Text" xml:space="preserve">
+    <value>複製(&amp;P)</value>
+  </data>
+  <data name="changeToAttributeContextMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="changeToAttributeContextMenuItem.Text" xml:space="preserve">
+    <value>属性に変更(&amp;A)</value>
+  </data>
+  <data name="changeToAttributeContextMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードをXML属性に変更します</value>
+  </data>
+  <data name="changeToTextContextMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="changeToTextContextMenuItem.Text" xml:space="preserve">
+    <value>テキストに変更(&amp;T)</value>
+  </data>
+  <data name="changeToTextContextMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードをテキストノードに変更します</value>
+  </data>
+  <data name="changeToCDATAContextMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="changeToCDATAContextMenuItem.Text" xml:space="preserve">
+    <value>CDATAに変更(&amp;C)</value>
+  </data>
+  <data name="changeToCDATAContextMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードを&lt;！[CDATA [block]]&gt;に変更します</value>
+  </data>
+  <data name="changeToCommentContextMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="changeToCommentContextMenuItem.Text" xml:space="preserve">
+    <value>コメントに変更(&amp;O)</value>
+  </data>
+  <data name="changeToCommentContextMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードを&lt;！-コメント-&gt;に変更します</value>
+  </data>
+  <data name="changeToProcessingInstructionContextMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="changeToProcessingInstructionContextMenuItem.Text" xml:space="preserve">
+    <value>処理命令(&amp;P)</value>
+  </data>
+  <data name="changeToProcessingInstructionContextMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードをXML処理命令に変更します</value>
+  </data>
+  <data name="changeToContextMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="changeToContextMenuItem.Text" xml:space="preserve">
+    <value>変更(C&amp;)</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 6</value>
+  </data>
+  <data name="ctxGotoDefinitionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ctxGotoDefinitionToolStripMenuItem.Text" xml:space="preserve">
+    <value>定義へ移動(&amp;G)</value>
+  </data>
+  <data name="ctxMenuItem20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 6</value>
+  </data>
+  <data name="ctxElementBeforeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="ctxElementBeforeToolStripMenuItem.Text" xml:space="preserve">
+    <value>前へ挿入(&amp;B)</value>
+  </data>
+  <data name="ctxElementAfterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="ctxElementAfterToolStripMenuItem.Text" xml:space="preserve">
+    <value>後へ挿入(&amp;A)</value>
+  </data>
+  <data name="ctxElementChildToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="ctxElementChildToolStripMenuItem.Text" xml:space="preserve">
+    <value>子として挿入(&amp;C)</value>
+  </data>
+  <data name="ctxElementToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ctxElementToolStripMenuItem.Text" xml:space="preserve">
+    <value>要素(&amp;E)</value>
+  </data>
+  <data name="ctxAttributeBeforeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="ctxAttributeBeforeToolStripMenuItem.Text" xml:space="preserve">
+    <value>前へ挿入(&amp;B)</value>
+  </data>
+  <data name="ctxAttributeAfterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="ctxAttributeAfterToolStripMenuItem.Text" xml:space="preserve">
+    <value>後へ挿入(&amp;A)</value>
+  </data>
+  <data name="ctxAttributeChildToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="ctxAttributeChildToolStripMenuItem.Text" xml:space="preserve">
+    <value>子として挿入(&amp;C)</value>
+  </data>
+  <data name="ctxAttributeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ctxAttributeToolStripMenuItem.Text" xml:space="preserve">
+    <value>属性(&amp;A)</value>
+  </data>
+  <data name="ctxTextBeforeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ctxTextBeforeToolStripMenuItem.Text" xml:space="preserve">
+    <value>前へ挿入(&amp;B)</value>
+  </data>
+  <data name="ctxTextAfterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ctxTextAfterToolStripMenuItem.Text" xml:space="preserve">
+    <value>後へ挿入(&amp;A)</value>
+  </data>
+  <data name="ctxTextChildToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ctxTextChildToolStripMenuItem.Text" xml:space="preserve">
+    <value>子として挿入(&amp;C)</value>
+  </data>
+  <data name="ctxTextToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ctxTextToolStripMenuItem.Text" xml:space="preserve">
+    <value>テキスト(&amp;T)</value>
+  </data>
+  <data name="ctxCommentBeforeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ctxCommentBeforeToolStripMenuItem.Text" xml:space="preserve">
+    <value>前へ挿入(&amp;B)</value>
+  </data>
+  <data name="ctxCommentAfterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ctxCommentAfterToolStripMenuItem.Text" xml:space="preserve">
+    <value>後へ挿入(&amp;A)</value>
+  </data>
+  <data name="ctxCommentChildToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ctxCommentChildToolStripMenuItem.Text" xml:space="preserve">
+    <value>子へ挿入(&amp;C)</value>
+  </data>
+  <data name="ctxCommentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ctxCommentToolStripMenuItem.Text" xml:space="preserve">
+    <value>コメント(&amp;M)</value>
+  </data>
+  <data name="ctxCdataBeforeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ctxCdataBeforeToolStripMenuItem.Text" xml:space="preserve">
+    <value>前へ挿入(&amp;B)</value>
+  </data>
+  <data name="ctxCdataAfterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ctxCdataAfterToolStripMenuItem.Text" xml:space="preserve">
+    <value>後へ挿入(&amp;A)</value>
+  </data>
+  <data name="ctxCdataChildToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ctxCdataChildToolStripMenuItem.Text" xml:space="preserve">
+    <value>子へ挿入(&amp;C)</value>
+  </data>
+  <data name="ctxCdataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ctxPIBeforeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ctxPIBeforeToolStripMenuItem.Text" xml:space="preserve">
+    <value>前へ挿入(&amp;B)</value>
+  </data>
+  <data name="ctxPIAfterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ctxPIAfterToolStripMenuItem.Text" xml:space="preserve">
+    <value>後へ挿入(&amp;A)</value>
+  </data>
+  <data name="ctxPIChildToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ctxPIChildToolStripMenuItem.Text" xml:space="preserve">
+    <value>子へ挿入(&amp;C)</value>
+  </data>
+  <data name="ctxPIToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ctxPIToolStripMenuItem.Text" xml:space="preserve">
+    <value>処理命令(&amp;O)</value>
+  </data>
+  <data name="ctxMenuItem23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 6</value>
+  </data>
+  <data name="ctxMenuItemExpand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ctxMenuItemExpand.Text" xml:space="preserve">
+    <value>ツリーを開く(E&amp;)</value>
+  </data>
+  <data name="ctxMenuItemCollapse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ctxMenuItemCollapse.Text" xml:space="preserve">
+    <value>ツリーを閉じる(&amp;S)</value>
+  </data>
+  <data name="contextMenu1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 402</value>
+  </data>
+  <data name="newToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAELSURBVDhPrZDJasJQGIXzUvoO9TX0jcQuSulCLUUECwot
+        KtrSAbQWRDTg0CLBCY1xqmkcYo7c8ItJYy9Z+MHhLu453+IXzkbypY6/SeRriKXLiKaKZqh6Gjb4j+v4
+        M7y+AF9y/yRS3UkomkbmvcaXxLMVqjsJhh/N8SE0sXP38El1J1t9Z0oOIprYiSQLVLdjGAZUbYOhopoC
+        z4X/tOAm8UoTO+uNjslcgzSY8wVXsTxNjug7Awt1jb68RFOa8AWXtxmaHdFWW8jTX7R7M1RbMl/APq2w
+        w81+VugMF6i3FZTEgXuB9XBfnSkqjRHeyl33AuvhxO8xitU+ch+SOwF7eeEK2Keb0OQcCMIe3/X1lqrb
+        NIsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="newToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="newToolStripMenuItem.Text" xml:space="preserve">
+    <value>新規作成(&amp;N)</value>
+  </data>
+  <data name="newToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>新しいXMLドキュメントを開始します</value>
+  </data>
+  <data name="openToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJYSURBVDhPvZFbSBNQHIf30ENPFmlRCEWWhD0MA0Oqh5Ck
+        m6KUZoWRJpS3LhiKbVPbvE53c+pKh7lN19RptTIMK4RCkQgtdZSYmgVFpZgZKnn7GptokkEP0R9+L+ec
+        7zs/zhH8l8kpMSPTWriSbyJPZ0WiNDK/9XcTnawjLF7lhC6IKsh0yFKyDUQllyCoN2tYLo218j/ekiAp
+        JTxRRWh8oUvQ22VkcrTOmR8jFqaHDFhNKmzm7GUlYQlqQuO0BMcWI6irVDMxUr0Env1UyrQ9ieqKfKrK
+        cjGUZKIvzOC6UkyxPHWptMaoYOKLcQGec8D0isEeu2x+E9wsl/P9o34BbqpXOPPAWkCDRc6dqlyshiws
+        ehkm3VVuaNMoU4vRKUQuWZU+l7F3Rc7aAy1SbNVqZgdkMJi9NG8da/0S6EmGV4l01kZwKSYEgUGXxbe+
+        fHiv5G6NiraHStehX6u/jIL2cGZag5h8FMCbSiHnTx9wCcq1Ur6+ljHYmo7NomSuXwrdcS6wM8YBnmCm
+        LYTJ5v2MNe5huH4HsnhvTgZ6uN6iVJ3OcJeIW2YFHU8dTXqSHIKz0HGKuWdHmHpyiPGmvYzY/Phc40N7
+        zmoig7zw2+bmEugKxHQ3Z3DbXAB9GfDCUff5MaZaghl/HMBogz9DViEfjFuxK92Rxm7Bd7vn4k8U5aVS
+        Z8rHfi+Bdo1gIW3KFTTLV3I/cxW1aWsxpHpy7fImIg9vxt9346JAk52CRnqOPFE0kovHnQ9zJiKQowd3
+        sW+3kJ1Cb3y8PNm4wYN1a9xY7z5f/d+MQPATMS7uX9kMtOAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>開く(&amp;O)</value>
+  </data>
+  <data name="openToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>編集するXMLドキュメントを開きます</value>
+  </data>
+  <data name="reloadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="reloadToolStripMenuItem.Text" xml:space="preserve">
+    <value>読み直し(&amp;R)</value>
+  </data>
+  <data name="reloadToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>現在の編集を破棄し、ディスクに存在するファイルを再ロードします</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 6</value>
+  </data>
+  <data name="saveToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIvSURBVDhPrZLdS9NRGMd//0L33QRddFtTYzgXq8GvXENZ
+        Ngwrwl5+kWZpukwTFSvTqPkG2QqXTlqtJuGkIl/AFCkRZSpZmrmiJQ41xSaCwdfznP3yuIouogeem8P5
+        fM55XqT/Es+fhUHpa11Ci3cRD93zaGoM4a5jGnW1X2C/FcD18kmUloyjsOAt8nJHcP6cHyouSQR2dQK1
+        NSv4WyyvrMKU2oVDqU95qrgkeZ8scEFlxTf16u9BcGh+GbssL6DRKLAe9AiB+8EcF5SWfFWvR8dP+GNw
+        ATFmHwouTeGApVkInA0zXHDR9kFFRGyEhydC2CZ7kZM9huQkpxDU3w5yQdbZERWLxK9wnz+IzQY3FGUA
+        ZrNDCGqqP3OBcmpARf8Md/Z/wqb4Rhw+8gqJiXVCcKNyCh3tYKMEjh1/A+vRXt5tahjVTN+mlyNwN1Ks
+        LyHLdiG4UjaBNh/YDgDNrh9s7t9Rfm2WN5UaRjVnZvjX4f3JrTAaK4TgcuEYPI+A+85VtjhhmNKyo9KS
+        bkPamaIInMTgfR4YDGVCYMsbZTBQXRXmLxPEjhGjkzH4fgajk7NQcq9ij6mFw7rdLuj1RUJAa+m4g/Vv
+        k4Dg0/k38S4wh8D0Ii4U2xFrcDG4CbEJ96CLzxeCzIwhVvcSh7caPdiyQ8bjth742vvQ0d2P3teD2Gu2
+        QqNvQByDt2vrodXmRAtOnujh60kbRktCc6ZRUbepYVQzvUpJ8M64LCH495CkNZROO2pGLBMuAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>保存(&amp;S)</value>
+  </data>
+  <data name="saveToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>現在の編集をファイルディスクに保存します</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Text" xml:space="preserve">
+    <value>名前を付けて保存(&amp;A)...</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>現在のドキュメントをディスク上へ別のファイル名で保存します</value>
+  </data>
+  <data name="exportErrorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="exportErrorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>エラーの書き出し(&amp;E)...</value>
+  </data>
+  <data name="exportErrorsToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>エラーリストのエラーをXMLファイルに保存します</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 6</value>
+  </data>
+  <data name="recentFilesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="recentFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>最近使用したファイル (&amp;F)</value>
+  </data>
+  <data name="recentFilesToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>このメニューから、編集した最後の10個のXMLドキュメントにすばやくアクセスできます</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>閉じる(E&amp;)</value>
+  </data>
+  <data name="exitToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>XML notepadを閉じます</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>ファイル(&amp;F)</value>
+  </data>
+  <data name="undoToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFQSURBVDhPzZC/S8NAHMXzJ2Xvktkpk9TJdssiZOyizSAi
+        CJJF6aDYobZaHCJRWxIhlUZBS9PQIungj4iYreb+g+fdpYgllRInH9xy3+/7vHcn/G/5rwSnNwRNh+Cy
+        TzAICKajxWJG3SA4aBPsnieHgS66v0D0E4JoEvPh1UPMzcp+DEn1ISkGcoqJpXKIYztG+y7Zm5FGAcZ9
+        DNtLzAU9pOYONXdQ3HSwrLUgFaqQt2mTeQC1EkKtEKhVmrxHkwsGP0fmkC+/RR/IFWu8xSFtwU0/xRJl
+        jSUnkLX1M7je08wia8MB1hyArIUQ1QTCmjDg+GWSAqxshag5n2mAVGJvZh/WgUiri3l6ZP178Tl85zP2
+        B3YvSgMWyXY9sBD2xOlVNq2Wb3l63QqyAUbBGPXWiJvzG372dKs75Ga55KNhutkBzetH7DR66A/+YF4s
+        QfgCArELpk3gWdoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="undoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="undoToolStripMenuItem.Text" xml:space="preserve">
+    <value>元に戻す(&amp;U)</value>
+  </data>
+  <data name="undoToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>前の編集操作を元に戻します</value>
+  </data>
+  <data name="redoToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVDhPzZBBSwJRFIX9Kf0E17lxGa5cRBgUKbQYgmBw
+        Y5vSRVQEhZsiEElIXUjBhIXiBEZaUJaJkxjkwqLMRc27/YLTvDdDJkqZqw681b3nO+dd2/+RToTbOuH4
+        hpDKEyoNAn0QrPHP0hnhqGAaNw87bzVBuKoNAMleMCRUBlewCYeUhlNS4AqcQdpmCCQYrh+YgLTeGZxy
+        pReYMgDuNYLdE8NEKAPfcl6A7F4F3jDBv8dQrOlQLg2AdNoLiFrpo9MRPLZexMJuugqHLw67O4bZLQY5
+        RpB3jBADKkzfFc2ZgHF/smtYLDcwv7gvzLyJO2S2tMYdxfM6JlcYxqYiXcOn9hvCWTNZmOWm0SjcC1BL
+        LesGCtqvz18L/GD8z7w2T+bmkbE+AC5e0bnQhFos91/4TclcXbSYCZ4PB+DyLFUEJJnRoNXv/w7S7kqY
+        W2/As6EjV6gO3+RA1ZA6qQ0PGFw22yeskwzRLTv71wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="redoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="redoToolStripMenuItem.Text" xml:space="preserve">
+    <value>やり直し(&amp;R)</value>
+  </data>
+  <data name="redoToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>最後の取り消し操作を元に戻します</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 6</value>
+  </data>
+  <data name="cutToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFhSURBVDhPrZDNSwJBGMb378lLp8DbRofALnvdSyxEsnba
+        m17ChUD6lD0kSJIIJaKQbCRJobWshF0y+wJdytzMEII8dPD4NDsugVDbBj4w8M47z/ObeYcZu65rD8gd
+        FmFvqUzTRDqXH+n9qtduB0o8hV6vSwOfgwFUVcNZ5cIdwJISV3GsVWnA7PUhSDKM5p17QKGgQ1FS6Ly0
+        oF3WwQkSjMate8Dp+RUdI5s/giQr4HnRfdjSo9GgQevp1u2hZfl/AEtiMELDnCijWKq4BzRb74hmP8DJ
+        bawkG+BCdfDhG2ylDZSqT86ge+MNYqwPPtKGT9jH7MIOfEGdQlhRw+Zu2RkQTj+DW20Ts4pJTkEgnKFh
+        +5ixenb5s6ywXX6bRwCs9AeAzG2XBDD8+aV1HaxAXsQK8Hi8zoDAWm1oJrdPzc1Tc/KgDO+0HxNkRRMZ
+        Z0Aie4IZf4wEFrGxvedsHo8Y5gtlstxyKLnfnwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>切り取り(&amp;C)</value>
+  </data>
+  <data name="cutToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードをクリップボード（およびその子）にコピーし、ノードをツリーから削除します</value>
+  </data>
+  <data name="copyToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHgSURBVDhPvZHdS1pxGMfPn7IKieq63Y/RKw0aFF1ssEEv
+        dOVFXXUVFQ3Wlg4H2dSo7A21jnUiKiPFylwttMy9GXMNNgUrzinLrGN98zxaVgu7GOwLn5vf+X0/D8/v
+        MP8cbuEbJFiblzDMuDDAfcQbLYfklfSRyrejn3CirnUID0tr7peYrd5kLZHY2Tm6hudgcXjxrEF5v8Qw
+        66aixQew64DHL+C9fhrskgDTAg+jnUffLA/V+B7xojNwUzjAOUkg5eQ0BuEgikAoTILbaR/ZQX6tg0jW
+        GUZnstPHXscpFDMCWtg/aOz3Y3h+l86vp0ETArciIK9qgiCBOr6vtPdRRMQOH8F2YB9f/LvQTQWp1MHG
+        CM/WPl4qgsitmkROxSiyywcTAmnf46h4NVmu86Fe/RnvjNskuIxwKGLr9zEcmwfQsGuQPelJCYRwFF9/
+        huD+HoDT8wu2Tz/Q2pv4vc0jYcjVQTx/68PTtg1Cw65CVtqdEuSXVP9Fo2qDBGJ8vRAvYtN/BKtLgHlx
+        Dx9GncgqUqUe8q7UtK+Q4PrkS7pNy8gsUKQXVDbZETk5g27cBa15DZqxVZosldWGJWQ8fp1eUCS3xF/b
+        SGSX6yEr0yKruAuZhcp4uQMPHr1KL/hPYZgL78LfVeQiZg4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="copyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>コピー(O&amp;)</value>
+  </data>
+  <data name="copyToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードをクリップボード（およびその子）にコピーします</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPtZJdSFNhHMYPdGE3RR/UVVcF0U0UEVQXGYWt
+        sNlikdii5SK2SckmS9tGas0cunRzadoW+THUprMSpUnREBqOvmdsRh8SOSPXsnY2N+eyeDrn3UaujCDo
+        gYcD73mf3/+Dl/ovcvZr4bihQW+LCrL8fUgez6+edgPmuqX2CIL+DkT8V+EbqUGJmANDpQKXdWoYK4uJ
+        k9GE2FCMtiEe6kYs2AlLkwLRyTaUSHh4MaTE2VNcKEWb4Xcew6R9NWTC/b8D2HA8ZEWj9ijcrhrQ7+sx
+        MaLGW9dx9Jl5kAgy0VG6Ck8NFAoO/zJSd1ttAkBfh65UiHJFHtSFuThTwIdCzINcxIVUkIU62RoCyMvO
+        TAd0NuswQ3dhJmBCdLwKgeeF8LYtJ/a0LoO7aREeGTNImHXWto3pAItJi+lAC6bHKhB9eRKRZwdB9y+G
+        vtWOKlMvzl3qglJngVxjhkRlhLCoOh3Q3KDBlM+IyIgYU4+5CN/fhI+3VpBwSvHZbwiGYhibCCJXeh45
+        +eqfELO+DPSrCoQfchAeXI/QwEr4WilSmVXzTSexyeqAZ9RPwneHvNjDFyUgDdUqfB4+jZBjHejbSxGw
+        ZWD0GkXa/jr7HV/CTOUPQXje+OEafodsgRwcJrxr7wFkbt8Bqu5CMQIPpEx4CT71LMR4+wJ4GynImJnZ
+        tlMdXGE6qLcMoG/QS76st25YC+pieRF5IKktpyxmFja38j3XaxK23XHDan+SDtCXnWBeGA8i/m7k7NxC
+        frDbZmdOVZvPBPAnHWK2zV74m5PX/1UU9QOTNfjZ1V1+MwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>貼り付け(&amp;P)</value>
+  </data>
+  <data name="pasteToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>クリップボード内のXMLを解析し、選択したノードの下のツリーに新しいノードを作成します</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 6</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAYAAADwMZRfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFtSURBVDhPrY89T8JQFIZ7/0H/AT9A6/dgxK/NyKjxA6JO
+        LrojfszuxjC6ORhdTBzcNLKDJpoYgViCpRBESlssBMG8ntZKJBYJ6Ju8ubn3nPO853L/pkowgOrqKIyb
+        EOyn9lWb5PE+xFCd4FGMdAgyToJ4G2SWKwQy73bph8pUqy0IznU9dAZjnAADzHLxuBGkp0WUdnyo0cal
+        X0I4nb6iTbug9bNP2yD9OgRjXkCZtnw9P2wO+JImi1DmBCgEMV3Y9kGnUx/joRHMbmstVXtBfsuHXB+r
+        W20HYKpAA5kpF+ReVneWoHa5tZ73ApBoyHR6VkDuYBdPIzySPQyZzRYgVY5BWnFDFJjl1LoHqhy3hpTw
+        JRIEEgmU2vA6g/LhC8SGeTx0M8tJh0YlGkFiRkCcAiQnUGzJjbsuZjnhX2y6coE2E9c8uKegx2V3Y1/2
+        6hRRAslH+00B3yX6vbilQDPcfupMZmCctrKvfxXHfQCM6/rOB2jPzgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>削除(&amp;D)</value>
+  </data>
+  <data name="deleteToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードを削除します</value>
+  </data>
+  <data name="repeatToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="repeatToolStripMenuItem.Text" xml:space="preserve">
+    <value>挿入(&amp;I)</value>
+  </data>
+  <data name="repeatToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>現在選択されているノードと同じタイプ（要素、属性、処理命令、コメントなど）の新しいノードを挿入します。＆nbsp;これにより、同じタイプのノードのリストを簡単に作成できます</value>
+  </data>
+  <data name="renameToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="renameToolStripMenuItem1.Text" xml:space="preserve">
+    <value>名称変更(&amp;M)</value>
+  </data>
+  <data name="duplicateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="duplicateToolStripMenuItem.Text" xml:space="preserve">
+    <value>複製(&amp;U)</value>
+  </data>
+  <data name="duplicateToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノード（およびその子）のクローンを作成し、そのクローンを次の項目として挿入します</value>
+  </data>
+  <data name="changeToElementToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="changeToElementToolStripMenuItem1.Text" xml:space="preserve">
+    <value>要素に変更(&amp;E)</value>
+  </data>
+  <data name="changeToElementToolStripMenuItem1.ToolTipText" xml:space="preserve">
+    <value>選択したノードをXML要素に変更します</value>
+  </data>
+  <data name="changeToAttributeToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="changeToAttributeToolStripMenuItem1.Text" xml:space="preserve">
+    <value>属性に変更(&amp;A)</value>
+  </data>
+  <data name="changeToAttributeToolStripMenuItem1.ToolTipText" xml:space="preserve">
+    <value>選択したノードをXML属性に変更します</value>
+  </data>
+  <data name="changeToTextToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="changeToTextToolStripMenuItem1.Text" xml:space="preserve">
+    <value>テキストに変更(&amp;T)</value>
+  </data>
+  <data name="changeToTextToolStripMenuItem1.ToolTipText" xml:space="preserve">
+    <value>選択したノードをテキストノードに変更します</value>
+  </data>
+  <data name="changeToCDATAToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="changeToCDATAToolStripMenuItem1.Text" xml:space="preserve">
+    <value>CDATAに変更(&amp;D)</value>
+  </data>
+  <data name="changeToCDATAToolStripMenuItem1.ToolTipText" xml:space="preserve">
+    <value>選択したノードを&lt;！[CDATA [block]]&gt;に変更します</value>
+  </data>
+  <data name="changeToCommentToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="changeToCommentToolStripMenuItem1.Text" xml:space="preserve">
+    <value>コメントに変更(C&amp;)</value>
+  </data>
+  <data name="changeToCommentToolStripMenuItem1.ToolTipText" xml:space="preserve">
+    <value>選択したノードを&lt;！-コメント-&gt;に変更します</value>
+  </data>
+  <data name="changeToProcessingInstructionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
+  </data>
+  <data name="changeToProcessingInstructionToolStripMenuItem.Text" xml:space="preserve">
+    <value>処理命令に変更(&amp;P)</value>
+  </data>
+  <data name="changeToProcessingInstructionToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードをXML処理命令に変更します</value>
+  </data>
+  <data name="changeToToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="changeToToolStripMenuItem.Text" xml:space="preserve">
+    <value>変更(&amp;H)</value>
+  </data>
+  <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 6</value>
+  </data>
+  <data name="gotoDefinitionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="gotoDefinitionToolStripMenuItem.Text" xml:space="preserve">
+    <value>定義へ移動(&amp;G)...</value>
+  </data>
+  <data name="expandXIncludesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="expandXIncludesToolStripMenuItem.Text" xml:space="preserve">
+    <value>XIncludesの展開(&amp;E)</value>
+  </data>
+  <data name="expandXIncludesToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>すべてのXInclude要素をインラインで展開しフラット化します</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 6</value>
+  </data>
+  <data name="upToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="upToolStripMenuItem.Text" xml:space="preserve">
+    <value>上へ(&amp;U)</value>
+  </data>
+  <data name="upToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードを前の項目の前、または前の項目がない場合は親の前に移動します</value>
+  </data>
+  <data name="downToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="downToolStripMenuItem.Text" xml:space="preserve">
+    <value>下へ(&amp;D)</value>
+  </data>
+  <data name="downToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードを次の項目の後に、または次の項目がない場合は親の後に移動します</value>
+  </data>
+  <data name="leftToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="leftToolStripMenuItem.Text" xml:space="preserve">
+    <value>左へ(&amp;L)</value>
+  </data>
+  <data name="leftToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>これが最初の子である場合は、選択したノードを親の前に移動します。それ以外の場合は、親の後に移動します</value>
+  </data>
+  <data name="rightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="rightToolStripMenuItem.Text" xml:space="preserve">
+    <value>右へ(&amp;R)</value>
+  </data>
+  <data name="rightToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>選択したノードを移動して、前の兄弟の最後の子にします</value>
+  </data>
+  <data name="nudgeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="nudgeToolStripMenuItem.Text" xml:space="preserve">
+    <value>項目移動(&amp;N)</value>
+  </data>
+  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 6</value>
+  </data>
+  <data name="findToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="findToolStripMenuItem.Text" xml:space="preserve">
+    <value>検索(&amp;F)...</value>
+  </data>
+  <data name="findToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>現在のドキュメントでテキストを検索します。検索ダイアログなしでインクリメンタル検索を行うには、Ctrl + Iを使用します</value>
+  </data>
+  <data name="replaceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="replaceToolStripMenuItem.Text" xml:space="preserve">
+    <value>置換(&amp;R)...</value>
+  </data>
+  <data name="replaceToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>現在のドキュメントのテキストを置き換える</value>
+  </data>
+  <data name="incrementalSearchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="incrementalSearchToolStripMenuItem.Text" xml:space="preserve">
+    <value>インクリメンタル検索</value>
+  </data>
+  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>編集(&amp;E)</value>
+  </data>
+  <data name="expandAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="expandAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>ツリーを全て開く(&amp;E)</value>
+  </data>
+  <data name="expandAllToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ツリー全体で折りたたまれているすべてのノードを展開します。選択したノードを展開するだけの場合は、コンテキストメニューの[ツリーを開く]項目を参照してください</value>
+  </data>
+  <data name="collapseAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="collapseAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>ツリーを全て閉じる(&amp;C)</value>
+  </data>
+  <data name="collapseAllToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ツリー全体（ルートノードを除く）で展開されているすべてのノードを折りたたみます。選択したノードを折りたたむだけの場合は、コンテキストメニューの[ツリーを閉じる]項目を参照してください</value>
+  </data>
+  <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 6</value>
+  </data>
+  <data name="statusBarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="statusBarToolStripMenuItem.Text" xml:space="preserve">
+    <value>ステータスバー(S&amp;)</value>
+  </data>
+  <data name="statusBarToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ステータスバーの表示を切り替えます</value>
+  </data>
+  <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 6</value>
+  </data>
+  <data name="sourceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="sourceToolStripMenuItem.Text" xml:space="preserve">
+    <value>ソースを開く(&amp;S)</value>
+  </data>
+  <data name="sourceToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>メモ帳を使用して、現在のXMLドキュメントをテキスト形式で表示します</value>
+  </data>
+  <data name="optionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="optionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>オプション設定(&amp;O)...</value>
+  </data>
+  <data name="optionsToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>オプションダイアログを表示して、フォントと色を変更します</value>
+  </data>
+  <data name="schemasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="schemasToolStripMenuItem.Text" xml:space="preserve">
+    <value>スキーマ&amp;M)...</value>
+  </data>
+  <data name="schemasToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>「スキーマ」ダイアログを表示して、検証に使用されるXSDスキーマを提供します</value>
+  </data>
+  <data name="statsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="statsToolStripMenuItem.Text" xml:space="preserve">
+    <value>XMLの統計...</value>
+  </data>
+  <data name="fileAssociationsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="fileAssociationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>ファイルの関連付け(&amp;F)...</value>
+  </data>
+  <data name="toolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 6</value>
+  </data>
+  <data name="nextErrorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="nextErrorToolStripMenuItem.Text" xml:space="preserve">
+    <value>次のエラーへ(&amp;N)</value>
+  </data>
+  <data name="nextErrorToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>エラーのリストの次のエラーに移動します</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 6</value>
+  </data>
+  <data name="compareXMLFilesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="compareXMLFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>XMLファイルの比較(&amp;X)...</value>
+  </data>
+  <data name="compareXMLFilesToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>現在のドキュメントをディスク上の別のドキュメントと比較し、違いを表示します</value>
+  </data>
+  <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>表示(&amp;V)</value>
+  </data>
+  <data name="elementBeforeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="elementBeforeToolStripMenuItem.Text" xml:space="preserve">
+    <value>前へ挿入(&amp;B)</value>
+  </data>
+  <data name="elementAfterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="elementAfterToolStripMenuItem.Text" xml:space="preserve">
+    <value>後へ挿入(&amp;A)</value>
+  </data>
+  <data name="elementChildToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="elementChildToolStripMenuItem.Text" xml:space="preserve">
+    <value>子として挿入(&amp;C)</value>
+  </data>
+  <data name="elementToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="elementToolStripMenuItem.Text" xml:space="preserve">
+    <value>要素(&amp;E)</value>
+  </data>
+  <data name="attributeBeforeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="attributeBeforeToolStripMenuItem.Text" xml:space="preserve">
+    <value>前へ挿入(&amp;B)</value>
+  </data>
+  <data name="attributeAfterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="attributeAfterToolStripMenuItem.Text" xml:space="preserve">
+    <value>後へ挿入(&amp;A)</value>
+  </data>
+  <data name="attributeChildToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="attributeChildToolStripMenuItem.Text" xml:space="preserve">
+    <value>子として挿入(&amp;C)</value>
+  </data>
+  <data name="attributeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="attributeToolStripMenuItem.Text" xml:space="preserve">
+    <value>属性(&amp;A)</value>
+  </data>
+  <data name="textBeforeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="textBeforeToolStripMenuItem.Text" xml:space="preserve">
+    <value>前へ挿入(&amp;B)</value>
+  </data>
+  <data name="textAfterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="textAfterToolStripMenuItem.Text" xml:space="preserve">
+    <value>後へ挿入(&amp;A)</value>
+  </data>
+  <data name="textChildToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="textChildToolStripMenuItem.Text" xml:space="preserve">
+    <value>子として挿入(&amp;C)</value>
+  </data>
+  <data name="textToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="textToolStripMenuItem.Text" xml:space="preserve">
+    <value>テキスト(&amp;T)</value>
+  </data>
+  <data name="commentBeforeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="commentBeforeToolStripMenuItem.Text" xml:space="preserve">
+    <value>前へ挿入(&amp;B)</value>
+  </data>
+  <data name="commentAfterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="commentAfterToolStripMenuItem.Text" xml:space="preserve">
+    <value>後へ挿入(&amp;A)</value>
+  </data>
+  <data name="commentChildToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="commentChildToolStripMenuItem.Text" xml:space="preserve">
+    <value>子として挿入(&amp;C)</value>
+  </data>
+  <data name="commentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="commentToolStripMenuItem.Text" xml:space="preserve">
+    <value>コメント(&amp;C)</value>
+  </data>
+  <data name="cdataBeforeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="cdataBeforeToolStripMenuItem.Text" xml:space="preserve">
+    <value>前へ挿入(&amp;B)</value>
+  </data>
+  <data name="cdataAfterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="cdataAfterToolStripMenuItem.Text" xml:space="preserve">
+    <value>後へ挿入(&amp;A)</value>
+  </data>
+  <data name="cdataChildToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="cdataChildToolStripMenuItem.Text" xml:space="preserve">
+    <value>子として挿入(&amp;C)</value>
+  </data>
+  <data name="CDATAToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="PIBeforeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="PIBeforeToolStripMenuItem.Text" xml:space="preserve">
+    <value>前へ挿入(&amp;B)</value>
+  </data>
+  <data name="PIAfterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="PIAfterToolStripMenuItem.Text" xml:space="preserve">
+    <value>後へ挿入(&amp;A)</value>
+  </data>
+  <data name="PIChildToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="PIChildToolStripMenuItem.Text" xml:space="preserve">
+    <value>子として挿入(&amp;C)</value>
+  </data>
+  <data name="PIToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="PIToolStripMenuItem.Text" xml:space="preserve">
+    <value>処理命令(&amp;P)</value>
+  </data>
+  <data name="insertToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 20</value>
+  </data>
+  <data name="insertToolStripMenuItem.Text" xml:space="preserve">
+    <value>XMLツリー編集(&amp;I)</value>
+  </data>
+  <data name="newWindowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="newWindowToolStripMenuItem.Text" xml:space="preserve">
+    <value>新しいウインドウ(&amp;N)</value>
+  </data>
+  <data name="newWindowToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>XMLメモ帳の別のインスタンスを起動します</value>
+  </data>
+  <data name="windowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="windowToolStripMenuItem.Text" xml:space="preserve">
+    <value>ウインドウ(&amp;W)</value>
+  </data>
+  <data name="contentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="contentsToolStripMenuItem.Text" xml:space="preserve">
+    <value>目次(&amp;C)</value>
+  </data>
+  <data name="indexToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="indexToolStripMenuItem.Text" xml:space="preserve">
+    <value>インデックス(&amp;I)</value>
+  </data>
+  <data name="sampleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="sampleToolStripMenuItem.Text" xml:space="preserve">
+    <value>サンプルを開く...</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="checkUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>更新の確認...</value>
+  </data>
+  <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 6</value>
+  </data>
+  <data name="aboutXMLNotepadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="aboutXMLNotepadToolStripMenuItem.Text" xml:space="preserve">
+    <value>XML Notepadについて(&amp;A)</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>ヘルプ(&amp;H)</value>
+  </data>
+  <data name="toolStripMenuItemUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="toolStripMenuItemUpdate.Text" xml:space="preserve">
+    <value>利用可能な更新</value>
+  </data>
+  <data name="toolStripButtonNew.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAELSURBVDhPrZDJasJQGIXzUvoO9TX0jcQuSulCLUUECwot
+        KtrSAbQWRDTg0CLBCY1xqmkcYo7c8ItJYy9Z+MHhLu453+IXzkbypY6/SeRriKXLiKaKZqh6Gjb4j+v4
+        M7y+AF9y/yRS3UkomkbmvcaXxLMVqjsJhh/N8SE0sXP38El1J1t9Z0oOIprYiSQLVLdjGAZUbYOhopoC
+        z4X/tOAm8UoTO+uNjslcgzSY8wVXsTxNjug7Awt1jb68RFOa8AWXtxmaHdFWW8jTX7R7M1RbMl/APq2w
+        w81+VugMF6i3FZTEgXuB9XBfnSkqjRHeyl33AuvhxO8xitU+ch+SOwF7eeEK2Keb0OQcCMIe3/X1lqrb
+        NIsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButtonNew.Text" xml:space="preserve">
+    <value>新規(&amp;N)</value>
+  </data>
+  <data name="toolStripButtonNew.ToolTipText" xml:space="preserve">
+    <value>新規作成</value>
+  </data>
+  <data name="toolStripButtonOpen.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJYSURBVDhPvZFbSBNQHIf30ENPFmlRCEWWhD0MA0Oqh5Ck
+        m6KUZoWRJpS3LhiKbVPbvE53c+pKh7lN19RptTIMK4RCkQgtdZSYmgVFpZgZKnn7GptokkEP0R9+L+ec
+        7zs/zhH8l8kpMSPTWriSbyJPZ0WiNDK/9XcTnawjLF7lhC6IKsh0yFKyDUQllyCoN2tYLo218j/ekiAp
+        JTxRRWh8oUvQ22VkcrTOmR8jFqaHDFhNKmzm7GUlYQlqQuO0BMcWI6irVDMxUr0Env1UyrQ9ieqKfKrK
+        cjGUZKIvzOC6UkyxPHWptMaoYOKLcQGec8D0isEeu2x+E9wsl/P9o34BbqpXOPPAWkCDRc6dqlyshiws
+        ehkm3VVuaNMoU4vRKUQuWZU+l7F3Rc7aAy1SbNVqZgdkMJi9NG8da/0S6EmGV4l01kZwKSYEgUGXxbe+
+        fHiv5G6NiraHStehX6u/jIL2cGZag5h8FMCbSiHnTx9wCcq1Ur6+ljHYmo7NomSuXwrdcS6wM8YBnmCm
+        LYTJ5v2MNe5huH4HsnhvTgZ6uN6iVJ3OcJeIW2YFHU8dTXqSHIKz0HGKuWdHmHpyiPGmvYzY/Phc40N7
+        zmoig7zw2+bmEugKxHQ3Z3DbXAB9GfDCUff5MaZaghl/HMBogz9DViEfjFuxK92Rxm7Bd7vn4k8U5aVS
+        Z8rHfi+Bdo1gIW3KFTTLV3I/cxW1aWsxpHpy7fImIg9vxt9346JAk52CRnqOPFE0kovHnQ9zJiKQowd3
+        sW+3kJ1Cb3y8PNm4wYN1a9xY7z5f/d+MQPATMS7uX9kMtOAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButtonOpen.Text" xml:space="preserve">
+    <value>開く(&amp;O)</value>
+  </data>
+  <data name="toolStripButtonOpen.ToolTipText" xml:space="preserve">
+    <value>ファイルを開く</value>
+  </data>
+  <data name="toolStripButtonSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIvSURBVDhPrZLdS9NRGMd//0L33QRddFtTYzgXq8GvXENZ
+        Ngwrwl5+kWZpukwTFSvTqPkG2QqXTlqtJuGkIl/AFCkRZSpZmrmiJQ41xSaCwdfznP3yuIouogeem8P5
+        fM55XqT/Es+fhUHpa11Ci3cRD93zaGoM4a5jGnW1X2C/FcD18kmUloyjsOAt8nJHcP6cHyouSQR2dQK1
+        NSv4WyyvrMKU2oVDqU95qrgkeZ8scEFlxTf16u9BcGh+GbssL6DRKLAe9AiB+8EcF5SWfFWvR8dP+GNw
+        ATFmHwouTeGApVkInA0zXHDR9kFFRGyEhydC2CZ7kZM9huQkpxDU3w5yQdbZERWLxK9wnz+IzQY3FGUA
+        ZrNDCGqqP3OBcmpARf8Md/Z/wqb4Rhw+8gqJiXVCcKNyCh3tYKMEjh1/A+vRXt5tahjVTN+mlyNwN1Ks
+        LyHLdiG4UjaBNh/YDgDNrh9s7t9Rfm2WN5UaRjVnZvjX4f3JrTAaK4TgcuEYPI+A+85VtjhhmNKyo9KS
+        bkPamaIInMTgfR4YDGVCYMsbZTBQXRXmLxPEjhGjkzH4fgajk7NQcq9ij6mFw7rdLuj1RUJAa+m4g/Vv
+        k4Dg0/k38S4wh8D0Ii4U2xFrcDG4CbEJ96CLzxeCzIwhVvcSh7caPdiyQ8bjth742vvQ0d2P3teD2Gu2
+        QqNvQByDt2vrodXmRAtOnujh60kbRktCc6ZRUbepYVQzvUpJ8M64LCH495CkNZROO2pGLBMuAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButtonSave.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="toolStripButtonSave.ToolTipText" xml:space="preserve">
+    <value>ファイルへ保存</value>
+  </data>
+  <data name="toolStripButtonUndo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFQSURBVDhPzZC/S8NAHMXzJ2Xvktkpk9TJdssiZOyizSAi
+        CJJF6aDYobZaHCJRWxIhlUZBS9PQIungj4iYreb+g+fdpYgllRInH9xy3+/7vHcn/G/5rwSnNwRNh+Cy
+        TzAICKajxWJG3SA4aBPsnieHgS66v0D0E4JoEvPh1UPMzcp+DEn1ISkGcoqJpXKIYztG+y7Zm5FGAcZ9
+        DNtLzAU9pOYONXdQ3HSwrLUgFaqQt2mTeQC1EkKtEKhVmrxHkwsGP0fmkC+/RR/IFWu8xSFtwU0/xRJl
+        jSUnkLX1M7je08wia8MB1hyArIUQ1QTCmjDg+GWSAqxshag5n2mAVGJvZh/WgUiri3l6ZP178Tl85zP2
+        B3YvSgMWyXY9sBD2xOlVNq2Wb3l63QqyAUbBGPXWiJvzG372dKs75Ga55KNhutkBzetH7DR66A/+YF4s
+        QfgCArELpk3gWdoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButtonUndo.Text" xml:space="preserve">
+    <value>戻す</value>
+  </data>
+  <data name="toolStripButtonUndo.ToolTipText" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="toolStripButtonRedo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVDhPzZBBSwJRFIX9Kf0E17lxGa5cRBgUKbQYgmBw
+        Y5vSRVQEhZsiEElIXUjBhIXiBEZaUJaJkxjkwqLMRc27/YLTvDdDJkqZqw681b3nO+dd2/+RToTbOuH4
+        hpDKEyoNAn0QrPHP0hnhqGAaNw87bzVBuKoNAMleMCRUBlewCYeUhlNS4AqcQdpmCCQYrh+YgLTeGZxy
+        pReYMgDuNYLdE8NEKAPfcl6A7F4F3jDBv8dQrOlQLg2AdNoLiFrpo9MRPLZexMJuugqHLw67O4bZLQY5
+        RpB3jBADKkzfFc2ZgHF/smtYLDcwv7gvzLyJO2S2tMYdxfM6JlcYxqYiXcOn9hvCWTNZmOWm0SjcC1BL
+        LesGCtqvz18L/GD8z7w2T+bmkbE+AC5e0bnQhFos91/4TclcXbSYCZ4PB+DyLFUEJJnRoNXv/w7S7kqY
+        W2/As6EjV6gO3+RA1ZA6qQ0PGFw22yeskwzRLTv71wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButtonRedo.Text" xml:space="preserve">
+    <value>やり直し</value>
+  </data>
+  <data name="toolStripButtonRedo.ToolTipText" xml:space="preserve">
+    <value>やり直し</value>
+  </data>
+  <data name="toolStripButtonCut.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFhSURBVDhPrZDNSwJBGMb378lLp8DbRofALnvdSyxEsnba
+        m17ChUD6lD0kSJIIJaKQbCRJobWshF0y+wJdytzMEII8dPD4NDsugVDbBj4w8M47z/ObeYcZu65rD8gd
+        FmFvqUzTRDqXH+n9qtduB0o8hV6vSwOfgwFUVcNZ5cIdwJISV3GsVWnA7PUhSDKM5p17QKGgQ1FS6Ly0
+        oF3WwQkSjMate8Dp+RUdI5s/giQr4HnRfdjSo9GgQevp1u2hZfl/AEtiMELDnCijWKq4BzRb74hmP8DJ
+        bawkG+BCdfDhG2ylDZSqT86ge+MNYqwPPtKGT9jH7MIOfEGdQlhRw+Zu2RkQTj+DW20Ts4pJTkEgnKFh
+        +5ixenb5s6ywXX6bRwCs9AeAzG2XBDD8+aV1HaxAXsQK8Hi8zoDAWm1oJrdPzc1Tc/KgDO+0HxNkRRMZ
+        Z0Aie4IZf4wEFrGxvedsHo8Y5gtlstxyKLnfnwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButtonCut.Text" xml:space="preserve">
+    <value>選択したノードを切り取りクリップボードへ</value>
+  </data>
+  <data name="toolStripButtonCut.ToolTipText" xml:space="preserve">
+    <value>選択した箇所のノードを切り取りクリップボードへ</value>
+  </data>
+  <data name="toolStripButtonCopy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHgSURBVDhPvZHdS1pxGMfPn7IKieq63Y/RKw0aFF1ssEEv
+        dOVFXXUVFQ3Wlg4H2dSo7A21jnUiKiPFylwttMy9GXMNNgUrzinLrGN98zxaVgu7GOwLn5vf+X0/D8/v
+        MP8cbuEbJFiblzDMuDDAfcQbLYfklfSRyrejn3CirnUID0tr7peYrd5kLZHY2Tm6hudgcXjxrEF5v8Qw
+        66aixQew64DHL+C9fhrskgDTAg+jnUffLA/V+B7xojNwUzjAOUkg5eQ0BuEgikAoTILbaR/ZQX6tg0jW
+        GUZnstPHXscpFDMCWtg/aOz3Y3h+l86vp0ETArciIK9qgiCBOr6vtPdRRMQOH8F2YB9f/LvQTQWp1MHG
+        CM/WPl4qgsitmkROxSiyywcTAmnf46h4NVmu86Fe/RnvjNskuIxwKGLr9zEcmwfQsGuQPelJCYRwFF9/
+        huD+HoDT8wu2Tz/Q2pv4vc0jYcjVQTx/68PTtg1Cw65CVtqdEuSXVP9Fo2qDBGJ8vRAvYtN/BKtLgHlx
+        Dx9GncgqUqUe8q7UtK+Q4PrkS7pNy8gsUKQXVDbZETk5g27cBa15DZqxVZosldWGJWQ8fp1eUCS3xF/b
+        SGSX6yEr0yKruAuZhcp4uQMPHr1KL/hPYZgL78LfVeQiZg4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButtonCopy.Text" xml:space="preserve">
+    <value>選択したノードをクリップボードへコピー</value>
+  </data>
+  <data name="toolStripButtonCopy.ToolTipText" xml:space="preserve">
+    <value>選択したノードをクリップボードへコピー</value>
+  </data>
+  <data name="toolStripButtonPaste.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPtZJdSFNhHMYPdGE3RR/UVVcF0U0UEVQXGYWt
+        sNlikdii5SK2SckmS9tGas0cunRzadoW+THUprMSpUnREBqOvmdsRh8SOSPXsnY2N+eyeDrn3UaujCDo
+        gYcD73mf3/+Dl/ovcvZr4bihQW+LCrL8fUgez6+edgPmuqX2CIL+DkT8V+EbqUGJmANDpQKXdWoYK4uJ
+        k9GE2FCMtiEe6kYs2AlLkwLRyTaUSHh4MaTE2VNcKEWb4Xcew6R9NWTC/b8D2HA8ZEWj9ijcrhrQ7+sx
+        MaLGW9dx9Jl5kAgy0VG6Ck8NFAoO/zJSd1ttAkBfh65UiHJFHtSFuThTwIdCzINcxIVUkIU62RoCyMvO
+        TAd0NuswQ3dhJmBCdLwKgeeF8LYtJ/a0LoO7aREeGTNImHXWto3pAItJi+lAC6bHKhB9eRKRZwdB9y+G
+        vtWOKlMvzl3qglJngVxjhkRlhLCoOh3Q3KDBlM+IyIgYU4+5CN/fhI+3VpBwSvHZbwiGYhibCCJXeh45
+        +eqfELO+DPSrCoQfchAeXI/QwEr4WilSmVXzTSexyeqAZ9RPwneHvNjDFyUgDdUqfB4+jZBjHejbSxGw
+        ZWD0GkXa/jr7HV/CTOUPQXje+OEafodsgRwcJrxr7wFkbt8Bqu5CMQIPpEx4CT71LMR4+wJ4GynImJnZ
+        tlMdXGE6qLcMoG/QS76st25YC+pieRF5IKktpyxmFja38j3XaxK23XHDan+SDtCXnWBeGA8i/m7k7NxC
+        frDbZmdOVZvPBPAnHWK2zV74m5PX/1UU9QOTNfjZ1V1+MwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButtonPaste.Text" xml:space="preserve">
+    <value>選択したノードの子としてクリップボードXMLフラグメントを貼り付け</value>
+  </data>
+  <data name="toolStripButtonPaste.ToolTipText" xml:space="preserve">
+    <value>選択したノードの子としてクリップボードXMLフラグメントを貼り付け</value>
+  </data>
+  <data name="toolStripButtonDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAYAAADwMZRfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFtSURBVDhPrY89T8JQFIZ7/0H/AT9A6/dgxK/NyKjxA6JO
+        LrojfszuxjC6ORhdTBzcNLKDJpoYgViCpRBESlssBMG8ntZKJBYJ6Ju8ubn3nPO853L/pkowgOrqKIyb
+        EOyn9lWb5PE+xFCd4FGMdAgyToJ4G2SWKwQy73bph8pUqy0IznU9dAZjnAADzHLxuBGkp0WUdnyo0cal
+        X0I4nb6iTbug9bNP2yD9OgRjXkCZtnw9P2wO+JImi1DmBCgEMV3Y9kGnUx/joRHMbmstVXtBfsuHXB+r
+        W20HYKpAA5kpF+ReVneWoHa5tZ73ApBoyHR6VkDuYBdPIzySPQyZzRYgVY5BWnFDFJjl1LoHqhy3hpTw
+        JRIEEgmU2vA6g/LhC8SGeTx0M8tJh0YlGkFiRkCcAiQnUGzJjbsuZjnhX2y6coE2E9c8uKegx2V3Y1/2
+        6hRRAslH+00B3yX6vbilQDPcfupMZmCctrKvfxXHfQCM6/rOB2jPzgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButtonDelete.Text" xml:space="preserve">
+    <value>選択したノードを削除</value>
+  </data>
+  <data name="toolStripButtonNudgeUp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADcSURBVDhPY6AqWLD+6H90PHfNof8zV+z9P33ZbjANVYod
+        LN504v/vP//B+NvPf2D8/svf/y8+/Pn/4PXv/6aeyfgNWLrlJIoBLEwtcAPW7j5P2ABkF4A0wzDRBoBc
+        8B1qMzom2gUfv/0F41dAW0Ea77748f/kjY//+5ceImwAKNRfffwDwVADTl779H/riVfEGTBn9UGwxo0H
+        roIxyID5G06BNRNlwIzle/8n1a4G48jSpWADXFNm/beJmvLfKLiPsAHoAGQAlEkcQLcB3QCSXUAygNlA
+        iB5MgIEBAPXu++U6tqTDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButtonNudgeUp.Text" xml:space="preserve">
+    <value>上に移動-選択したノードを前項目の前、または前の項目がない場合はその親の前に移動します</value>
+  </data>
+  <data name="toolStripButtonNudgeDown.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADPSURBVDhPY6AqMPVM/k8MTTuAbgMLUwsKn2QXoBtAECxY
+        f/Q/MgYZMHfNof8zV+z9P33ZbjANVYodLN504v/vP//B+NvPf2AD3n/5+//Fhz//H7z+/Z+gF5ZuOYnT
+        gLW7zxM2AJ8LiDIA5ILvUI3omGgXfPz2F4yRNZ+88fF//9JDhA0Ahfyrj38gGOhssOZrn/5vPfGKOAPm
+        rD4I1rjxwFU4nr/hFFgzUQbMWL73f1LtajCOLF363z9nwX/XlFn/baKm/DcK7iNswAAABgYAE4b6vyOp
+        a8EAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButtonNudgeDown.Text" xml:space="preserve">
+    <value>下に移動-選択したノードを次の項目の後に移動します。次の兄弟がない場合はその親の後に移動します</value>
+  </data>
+  <data name="toolStripButtonNudgeDown.ToolTipText" xml:space="preserve">
+    <value>下に移動-選択したノードを次の項目の後に移動します。次の兄弟がない場合はその親の後に移動します</value>
+  </data>
+  <data name="toolStripButtonNudgeLeft.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADSSURBVDhPYxgmYMH6o//R8dw1h/7PXLH3//Rlu8E0SJ2p
+        ZzIKDQeLN534//vPfzD+9vMfGL//8vf/iw9//j94/fs/hgZ0sHTLSRQDWJha4Aas3X0ewwC8LgBpJmQA
+        BgC54DvUZkIYpB6rCz5++wvGMIV3X/z4f/LGx//9Sw8RdgEo1F99/APBQGeDDDh57dP/rSdeYTUAw8A5
+        qw+CNW48cBWO5284BdZMlAtmLN/7P6l2NRhHli7975+z4L9ryqz/NlFT/hsF98ENQKdHAQgwMAAAeE/8
+        eBOhXeQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButtonNudgeLeft.Text" xml:space="preserve">
+    <value>左に移動-選択したノードをその親と同じレベルに移動します</value>
+  </data>
+  <data name="toolStripButtonNudgeLeft.ToolTipText" xml:space="preserve">
+    <value>左に移動-選択したノードをその親と同じレベルに移動します</value>
+  </data>
+  <data name="toolStripButtonNudgeRight.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADOSURBVDhPYxgmwNQz+T8yvWD90f/oeO6aQ/9nrtj7f/qy
+        3WAapA4nWLzpxP/ff/6D8bef/8D4/Ze//198+PP/wevf/2EWwQG6wNItJ1EMYGFqgRuwdvd5TAPQAboL
+        QAaAME4DYAIwhfgw0S74+O0vGL8C2grTfPLGx//9Sw8RDgNQqL/6+AeCoQacvPbp/9YTr7AbgA7mrD4I
+        1rjxwFU4nr/hFFgzXhfA6BnL9/5Pql0NxpGlS//75yz475oy679N1JT/RsF9hF0wogADAwAxU/qmDs+p
+        sQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButtonNudgeRight.Text" xml:space="preserve">
+    <value>右に移動-選択したノードを移動して、前の項目の最後の子にします</value>
+  </data>
+  <data name="tabPageTreeView.Text" xml:space="preserve">
+    <value>ツリー表示</value>
+  </data>
+  <data name="tabPageHtmlView.Text" xml:space="preserve">
+    <value>XSL出力</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAD6qwAAKAAAADAAAABgAAAAAQAIAAAAAAAACQAAAAAAAAAAAAAAAQAAAAEAAAAAAAA4WwAAPmAFAEBf
+        BgBEYwsAS2kTAFRuGABbch0ARGMkAFtrIgBeeC0AZHkoAGZ9MAAAK04ABjFNAAY3VwALQFwAJElZAA5F
+        YwATRWQAE0pnAB1NZQAVSmgAGE5qABtSbQAeVXEAJFNrADVVYQAiVnAAMl5xACpifwA2Y3kAamRQAENa
+        ZgBKZGkAUGZvAERregBbbnIAbnZuAHF4bABoeHgAe3p2AHJ/fgB4fHoAdYAuAGyBNgB2hjkAdolCAHmD
+        egCHjDwAgo5HAI2VTQCSlEUAi5hYAJacWAClmkcAop9SAJ2gWACyoU0Ao6NcALmnWQCKhGwAkZ9hAIyK
+        fACUjnsAnJZ1AKKZdwCZomYApahmALurYgC3rWoAvKxqAL+ybQCrqXgAva5zALOpeACqsXwAurN5AMKu
+        WQDFsVwAy7ddAMCuaADCsWMAy7dgAM25YgDDs2sAx7huAMu6bADQvmoAwK9wAMKzcgDFuHUAyrtzAMS2
+        ewDFuHoAy7x6ANPBbADOwH0A1cR3ADNuigA4c48AQ26FAEVwhgBQeI4AQXuVAFN7kABGgZoAXIGVAHmF
+        hgBoiZgAUYujAHCRogCGioIAi4yFAI2NjACNkYAAk5KDAJmVhACXlIoAmZaMAJ2ZigCSlZMAmZeQAJua
+        kQCcnJgAopuEAKGcjACgnZAApqGMALKlgACss4IAt7uJAKShkwCrpJMAramXAKSgnQCopZkArKmbALCn
+        kgCzq5QAs62aALmvnAC5tpgAip+hAKOjogCtqqQArKmoALGupACvsakAuLSlAL+4ogCysqwAuLarALy5
+        rACys7IAu7e1ALu7tQC6t7wAu7y5AMGzggDGuIMAy7yCAMa7igDJvIoAxLqSAMC8qQDBvrcAvMKUALrA
+        tQC+wbwAv8u7AM3AhgDTxogAwsKSAM7ElADCxJsAzcObAMXInQDMyJgA08aUANXJkgDZzJQA0MWcANXK
+        mwDZzpsA29CbAODTmgDLyasA0MagANbPoQDYzqEA1cysAN3TpQDDwrgA1c2zANbRswDa0rQA39i2ANrS
+        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
+        AAAAAAAAAAAAAAAAAAD///////8AAP///////wAA////////AAD///////8AAP////8P/wAA////8AP/
+        AAD///8AAP8AAP//8AAA/wAA//+AAAB/AAD/+AAAAA8AAP/gAAAADwAA/+AAAAAPAAD/AAAAAA8AAPAA
+        AAAADwAAgAAAAAAPAACAAAAAAA8AAMAAAAAADwAAwAAAAAAPAADgAAAAAA8AAOAAAAAADwAA8AAAAAAP
+        AAD4AAAAAA8AAPgAAAAADwAA/AAAAAAPAAD8AAAAAA8AAP4AAAAADwAA/gAAAAAPAAD/AAAAAA8AAP8A
+        AAAADwAA/4AAAAAPAAD/wAAAAA8AAP/AAAAADwAA/+AAAAAPAAD/4AAAAA8AAP/wAAAADwAA//AAAAAP
+        AAD/+AAAAA8AAP/8AAAADwAA//wAAAAPAAD//gAAAB8AAP/+AAAAPwAA//8AAAB/AAD//wAAD/8AAP//
+        gAf//wAA//+D////AAD///////8AAP///////wAA////////AAAoAAAAIAAAAEAAAAABAAgAAAAAAAAE
+        AAAAAAAAAAAAAAABAAAAAQAAAAAAADtdAgA/YAcAQ2MLAEpoEgBSbBcAWHAcAFp0JQBjeCcAZX0xAAU1
+        VQAJO1kAEjtVABxAWAAkR10ADkNiABZKZwAdUGwAGlNzACRNZQAqTmIAMFBiADpWZAA3WWsAOlxsACJd
+        fAAwXnQAPl9xAChgfAA0ZX4APWd7AE9eZQBAXmoASmJrAEdmcABObHsAV2lwAFNvfABldHUAdn98AHqB
+        LwBthDwAdYM0AHaJQQB2gn8Ai5NJAJaXSwCJl1UAl5xXAKWdVACzok8AqqNbALWjUwC4plcAt6VcALim
+        WgC7qVwAkJ5kAJ6UbACHhnkAjYt/AJ2WfgCkmnIAmKJmAKuoZAC8q2IAv69oALmybgChrHYAsaZ7ALet
+        fgCvsnoAuLV3AMWxXQDJtV4Awa9gAMSyYgDItmMAy7hkAMOzbQDKumwA0L9tAMS1cwDGuHMAyblyAMO0
+        eQDEuH0Ayrt7ANTBagDOwH0A08FwANjGcwDVxXoA2ch9AC1ohAA+aoIAN2+JAD1yiwAxcJAAQG2FAERv
+        iABLcoQAQXGJAEl0iwBSeIgAV36UAGV4ggBehZkAaYaVAGaKnQB7jpgAcJKkAH+ZoAB5mKkAhIuEAIqN
+        gwCSkoYAm5aDAJ2YhQCUlIoAm5mLAJaYkQCgnY4AoZ6SAKagiwCpoYwAtauCALK3hwCkoZEAqqWUAK6q
+        lgCkpZoAqaadAKesngCsqZsAt6+TALawnACAnawAqKujALGtoACpsKoAtbGjALizoACwtK4AuLatAL25
+        rQCltbEAs7OyALS7swC8vLMAu7m6AMy+ggDCv4sAyb2KAMi+qADAvbEAwL2+AL3BugDNwIIAwsGLAM7B
+        iwDRw4MA2suFANLFigDVyI0A2MqLAMXAkwDMwpMAx8ebAMrHmgDHyJ0A08WQANXJkwDZzJUA0cabANXL
+        mgDZzZkA39GSANvQnADh1Z0AwsejAMzLowDGwa8Ays+tANTLpwDZzqAA1MusANzSogDc0qoAxcKzAMjD
+        sQDExLwAyca9AMzIugDZ0rQA1da8ANrSuwDg1aMA5NikAODWqwDh2K0A5NuzAOPbvQDo37wA6OC8AMLB
+        wADHysIAzczFAMzMyQDQz8cA0s/LANbRwQDc1sIA3tjEANTSywDY1MoA3dnMAM/Q0ADV1NMA2tfWANDa
+        0QDa2tMA29naAODawwDi3MkA4t/SAODf3QDZ4tkA5uDAAOniwwDl4M8A6uTLAO3ozgDy6ssA5eHTAOnk
+        1QDt6NMA5ePbAOnl2QDs6dwA8OvVAPHs2gD18NYA8/DfAPjz2gDn6OIA8O3kAPTx5AD59eMA/fjjAPTz
+        6QD49usA+/jtAPn38AD6+fQA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACT2s95AAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAzc3Qk9DewHk8AAAAAAAAAAAAAAAAAAAAAAAAAJbZ4pPa9e/g1cTagHh5AAAA
+        AAAAAAAAAAAAAADenNvX0N3gwrrV4ODh1diLeHQfI2oAAAAAAAAAAADezdLv77qrV09OScTh1dXE2J12
+        cxNhbgAAAAAAAAAAydPCr5dXUE5MTEFBVeDt4djVtnh3E2FsAAAAALulyMWiWlBOTksxMzc1NDRButXV
+        1eDdgHgUXokAAK3IpVxbWlFQTEE4OAgoN0FBQTdV7+/g1deGexUcZgAAu1tQWlBQUFQ4QUEtAShLQUFB
+        QkG64ODg7Z18FhFjAAAAu1BUVFRTQC4xLggFNEJPT09PT6Dv4NXVm4AhEGMAAAAAV1lZnqFDBAECAQMG
+        KjNPT1ZPVbrr7evafCYLYwAAAACsXKOkpKNIMwEFKggGLldXVFdTp+DV1diALApfAAAAAAC7ra2ysrIt
+        BEChnkAtQ1eXV1dP1fHr9YJyCl8AAAAAAMiysrvFsi0pnkgvBQFAnqFZV1en4NXvgnMKXwAAAAAAAMjG
+        yMjIp0gvBAEGLy1Io5dXV1fV6+uQcw9kAAAAAAAAysjIycnILwEBAwUEATCjoaFXV6vg65t3EGcAAAAA
+        AAAA5MzLzMx/CQkrBwMqMFajo6OhVebrwXcQZwAAAAAAAAAAzOXl5cippz8FCQkDP7Crq6NXq+vadBBp
+        AAAAAAAAAADl6Ojo5+c5AwEBBy9Ip7KtpKOgy9d5EGsAAAAAAAAAAADn8PDr6C8BBi9/Pwcvubmjo1ev
+        7XsTbQAAAAAAAAAAAOX7+PHotUR/OQYDCQiYsq2jnpfXixpvAAAAAAAAAAAAAOz97+zvtwcDKX+1Ky+5
+        raOjV9WLX3EAAAAAAAAAAAAA5fj4+O/DL7Tu6+iqB5i7sqWhoIJlAAAAAAAAAAAAAAAA7/77/fv6+/r4
+        8uR/pqd+RTp+iGgAAAAAAAAAAAAAAADn/f769ePYto6AdnZ2fIZ8jXiMcAAAAAAAAAAAAAAAAADn2pCG
+        jY2GhnSLc4x5kHmLkpIAAAAAAAAAAAAAAAAAAADahopzi3mMip3O3NfA4wAAAAAAAAAAAAAAAAAAAAAA
+        APXOztzc2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////+H///4A///gAH/+AAAP+AAAD/AAAA8AA
+        AAMAAAADAAAAA4AAAAPAAAADwAAAA+AAAAPgAAAD8AAAA/AAAAP4AAAD/AAAA/wAAAP+AAAD/gAAA/8A
+        AAP/AAAH/4AAB/+AAAf/wAAP/+AAf//gf////////////ygAAAAYAAAAMAAAAAEACAAAAAAAQAIAAAAA
+        AAAAAAAAAAEAAAABAAAAAAAAO1wCAD9gBwBAYAYARGQLAEhlCwBHZxEATGkTAFBsFgBSbhoAWXAaAF12
+        JQBleioAaHwrAGN6MwAGOVkACz1cABBEYgAWSmgAHVFtAClQZwAkVG4AMFNlADFVaAA9WmkAIFd0AClf
+        ewAwXnUAKmN/ADdifABCXWgATWNsAFVlbABLY3EAXW5zAF91fwBic3UAa3h6AHJ+fwB1gS4AaIA3AHCC
+        NABzhj8AfYo9AHGGQAB/jUIAe45LAICORQCDk08Ak5RKAIeXVwCfnlIAoZtPAJ2gWACroVUAtaRWALmm
+        VAC1pFkAuadaAL2qXACgmHsAmKVsAJmocgClqm8Ar6xpALuqYQCxrWoAua9rAL+waACnrHMAuq53AL24
+        ewDArVwAxLFeAMi1XwDBrmEAwK9pAMKxZQDItWQAzrtmAMGxbQDKuWsA0b9qAMO0dQDBuXcAyLlxAMW4
+        fgDLvHoA08FtAM7AfgDTwXAA0sN+ADdngAAzaoQAO2yGADxyjABCbIAAQ2+IAEhziwBSeIsAT3iQAFh/
+        kwBofYcAeoWAAHuHiQBkh5oAf4yRAHKSowB5l6UAioiCAI6NgQCIj4cAjpGJAJKRhACUlYoAmZeKAJ2b
+        jQCPnZgAoZuLAKKfkwCeppcAnqKZAKiggQCmoYwAqKKJALCqjQCutoUAvryEAKShkwCoopEAqaWVAKSg
+        mQChoZwApaaeAKunmgCiqJ0AqaieALGqkgCyrJoAt7CTALG7kgC9tZwAq6ugAK6togCsraoArLGrALOw
+        pQC5sqIAtrOqAL65qwC2u7QAvb29AMW9ggDLvYAAwL6IAMq+iQDDvaEAxL2uAMC9swC+wJIAtcC5AL3B
+        vADOwIEAzcGJANDCgwDSxYkA1ciOANjKigDf0IsAwcCRAM3BkwDPyp0A0sWUANXJkwDZzZUA0MacANPK
+        mQDZzZwA3NCcAOXVjgDg1J4AxsupANLJowDXzq4A3dOgANTTrADY0K0AzMa1AMnIvwDMyr8A0Mu/ANbQ
+        uwDb1LoA4NamAODWqwDh2KwA4tu1AODYugDl3bkA5d+9AObgvwDo4L4Avr/AAMHBwADFwsAAw8rCAMrJ
+        wgDPzccAysrIANLOwgDc1cEA3djGANPRywDb18kA3dnKANHP0ADS3NQA3NrRAOHbxADh28kA4NzKAODb
+        zADj3cwA5N/MAOLe0ADm4MQA7OTAAOXgzgDr5coA7ejOAOXg0QDj4dQA5eHVAOnj0wDq5tAA7ObQAOnk
+        1gDt6dQA5eLbAOPi3gDl490A5eTcAOnl2ADt6NkA8ezVAPHt2wDz8N4A6+ngAPLu4QD18uMA9vToAPn2
+        6gD6+O4A+/rzAP38+AD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAACXkNDOkIQAAAAAAAAAAAAAAAAAAADOzPDo1tLWgG5tAAAAAAAAAAAA
+        AM/M6Nqrma/s3NLSj4EgI2YAAAAAAADP2quiUU5OSEHa6ODTlXsXXV0AAADEuKhaT05LMTk3Nzmq3Nzc
+        13sYHF8AslpaWFFRQTs2BTRBQTtB4NzS2YAfGV4AuFFVVVVDNDYnCkxMU0xTq/Pa3IYkElwAAFdVpKRU
+        CAIBBAo0VVVTU+zs85JnEB0AAACupq6urg0pQDUxmZlVma/c4J5wEB0AAAC4srK4qwhURysEQKRZmZnc
+        2s5yDx0AAAAAw8PDw38vBActL6OimVW66c9zEV4AAAAAxMTExqsHAgkBB5ikpKSZ7PNyEmEAAAAAAMni
+        4smpnyoLKQ2traWYtuh0E2IAAAAAAMnp5eLkLgECKkWasq6ko/N3FWQAAAAAAADl9vj0PSx+MgQLq66m
+        WdqGG2UAAAAAAAAA9vns6T4GLJ8vRbKlpLKUYGkAAAAAAAAA8/z59Yy19Oy5DsG0pZiTY2sAAAAAAAAA
+        APT+/P769L+ci316PHyNbGwAAAAAAAAAAO3vnpKKd4WAdIWPcpF7dQAAAAAAAAAAAADZeIWFeZbN2IOD
+        kI6gAAAAAAAAAAAAAADZhISFlqHN2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////AP//
+        /wD//A8A/+AHAP4AAQD4AAEAwAABAAAAAQAAAAEAgAABAMAAAQDAAAEA4AABAOAAAQDwAAEA8AABAPgA
+        AQD8AAEA/AABAP4AAQD+AAMA/wAHAP8A/wD///8AKAAAABAAAAAgAAAAAQAIAAAAAAAAAQAAAAAAAAAA
+        AAAAAQAAAAEAAAAAAAA5XAAAS2gOAEpoEQBMahMATGoUAFNPRQBWUkYAb4IxAG2CNQByhj0AfoxDAIOT
+        UQCFllcAk5tQAJucUgCWn1kAmpN/AKOpbwC1pmkAp615ALuucQC+r3MAsbB0AL+yewC7uXsAwrNzAMS2
+        dwDHuHYAxbZ6AMC5fwDLvn0Azb5/ANTEfQBhhJEAt7eFAJCpsgDLvYAAzcCDAM7BhQDBwo8Az8OLAMzG
+        jQDUx4YA1siEANHEiwDRxI4A1ciMANjKiQDZy44A2cyOAMjFmQDSxpIA08eVANTIlgDazZEA3M6UANXK
+        mQDWzJ0A3NCXANzQmADe0p0A4NSfAMbJoADRyKEA182gANjPpgDVzagA2c+oANrRqgDa0q0A3NSvAN3V
+        sgDf2LkA4NWjAOHWpQDi2KkA49qsAOTargDl27EA5t21AOfeuADg2bwA6N+5AOjgugDp4L4Ap8TRAOLc
+        wQDj3sgA4N7bAOriwADq5MEA6+TEAOzkxQDq5MsA7ObJAO7nzgDv6c8A7ujQAOnm2QDs6d8A8OrSAPHq
+        1ADx7NcA8e3aAPPu3ADx8e4A/v7+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP///wAAAAAAJCIiIiIiIiIiIiJWAAAAAFlqampqampqampqIgAsMDA4ODA4MDg4MBz/
+        /yIAPF1dRUJBOTQtJx8TY2oiADhdVFAFARA7DgECG17/IgBKXV1FIwEFFwUBDxZAaiIAXVBdXVMKAQUB
+        CDAfNP8iAABMXklIMwUBBRwpGxtqIgAAPGFhXVUFAQUqOC0b/yIAADxmV0kMAQUBCzQnE2QiAABMYWE/
+        AQEoBQEZOBphIgAAXlVYDAoUSBIICykWQCIAAABKaGheXlVQTEo8JUEiAAAAPGhoYV5VVUxMPCcpIgAA
+        AEwHXgdVBkwHSgctLVYAAAAAABEAEQARABEAEQAA8AAAAPAAAACAAAAAgAAAAIAAAACAAAAAgAAAAMAA
+        AADAAAAAwAAAAMAAAADAAAAA4AAAAOAAAADgAAAA+qsAACgAAAAwAAAAYAAAAAEAIAAAAAAAgCUAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAIFBQTOwAAAAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAABAQAmQEA+eIKDgLy7urj35+fm/4qKguARFBFfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUD
+        ASA3NzRfa2tpn6amo93X2Nb/7/Dt//Lz8P/s6un/49/Y/9HRxf+ZmIj/UVFJvgICA0IAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABSIe
+        Gz1ZVlWIpKOh2eDf3f/u7+7/9vX0//Dv7f/n49v/39rL/9nTvv/Uy7L/2NG//9DQx/+fnYz/sa6c/4yK
+        fP8eHhyBAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACLCQfNGlk
+        YYyjoaHP2NnZ//Dx9f/4+Pv/8vHu/+jl3//f28v/29S//9jQt//a073/3dfC/9/ZyP/e2cf/4d/X/+Hi
+        4v+trKL/mJWE/6ypl/+pppb/EA4NfgAAACwAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASBAAPTEQ/XZmT
+        kMnd29z/9fT4//v7+//19PD/5ODQ/9fRtP/Mwpr/x7qL/8e7kf/e18P/5uHS/+bi1P/j4ND/4+DT/+Lg
+        0//f2sf/3NbF/9zWyf++wLr/lZOC/6Gcjf+zrp3/NjQvqQAAAGQMExV2Eh8jdgAAAA0AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQFwRTSEMznZSRq9HQ
+        0fTy8vX/+vr8//n49//n4tT/2NGz/8/Em//HuYf/xbd8/8a1b//LuGr/0L5o/8OvWf/c17//7uvi/+bi
+        1P/g2sn/3NbC/9nSu//WzbP/1s62/93Zy//Lzcj/mpaG/5+aiv+tp5P/Q1pm/xRFYv9Ri6P/JlFo/wUc
+        Kj4AAAAJAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS0RFJvDs
+        8f/9/P3/+ffy/+fi0P/a07X/0Mag/8q9jf/HuHv/x7Zu/8u6bf/QvWv/z7tl/8u3Xf/Hslj/wq1a/8Gv
+        Y/+8rXL/2tG5/93Wwf/f2cb/4NzL/+Tg0v/j4NH/4NzK/+Xj3f/d3dz/nJqK/56Zif+wqJP/UGZv/w9F
+        Zv9GgZr/I1Ns/wgwRX4AAAAaAAAACgIGBQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAwLWIRtrTt//Rx57/xriC/8W0dP/IuHH/z79z/9C+aP/Ou2L/y7hg/8azXP/CsF7/wK9j/76u
+        aP+8rGr/u6lj/7qpX/+1o1H/3Na9/+7r4//q59z/5+TX/+Tg0//g28r/2dG6/9jQuf/Tzbf/qKaZ/5yY
+        iP+wp5L/XW1x/wg9XP9Be5X/IVZv/wo4UGsAAAAIAAAABQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAALeq
+        XRu8sGpOyLpyftzOhKvbyXzR0b5m08q3YurPvXD/0b5r/867ZP/MuGD/xrJe/8OxYv/Br2b/wbBv/72s
+        Z/+7qmL/uadb/7elVP+0o0//s6FO/7GhSv+3pVT/va1t/+Pfzv/g2cb/29O8/9rSu//d18L/3NW9/9/b
+        y//p6ef/trSr/5mVhP+vppP/bnp5/wc4WP84c4//HlZy/wtBXU8AAAAAAAAAAAAAAAAAAAAAAAAAAL6x
+        d0bDuH9+yr2Aw9PFgOzSwXLn1MFm4tfBY9nOuE7LyrFAvsatQMjHtGL/xbJm/8KxaP/Armn/vq5l/76q
+        YP95gC//W2si/6WaR/+2pFH/taNR/7akVP+3pVv/uKhh/7mpZf+7q23/ualp/9fPtP/o5Nf/6ebZ/+jl
+        2f/n5Nj/5ODP/+Pg0P/r7On/w8K7/5mWhf+uppT/e4OA/wY0VP8zbor/G1Rw+gxEYksAAAAAAAAAAAAA
+        AAAAAAAA0MSIltXEdvnUwGfn1L1c1821SsbJsULBxaw9vr+nNbm8pDO3uJ4tsrOaJqu8q1rzwa9k/7yq
+        XP+6qFf/uadW/7imVv9teiX/QF8G/4uNPP+7qWT/u6tp/7urav+8qmb/u6ti/7uqXv+5p1b/vKtb/7+w
+        cf/u7OP/7erg/+nl2f/k4ND/3tjD/9nRuf/Y0br/09HK/56bi/+tppT/jI+H/wUyT/8qYn//F1Bs9wxE
+        YjwAAAAAAAAAAAAAAAAAAAAAx7Vgt820RdLErDm7wKg2t72kMrO3ny+xtJwrrrGYJ6yulSKnqpIdpaSL
+        EpevmTjSva1i/7uqXP+7ql7/u6ti/5CRRf89XwP/OVwA/4eMPP+8rWP/vaxg/72rXv+9rF7/vqxe/76s
+        X/+9rV//wLBo/7inX//WzLD/3dbA/9vSu//d18H/39jD/9/Ywv/n49n/5OXj/6Ohk/+po5P/nZyQ/wYw
+        TP8eVHL/F09r9wxEYjwAAAAAAAAAAAAAAAAAAAAAv6xZX76lN8q1myaus5ooqa+WI6askx+iqZAcoKaN
+        GJ6lixWco4kTm6mULZ6lix2mva5s/8Cvbv++r2n/sqZd/05oEf85XAD/VGwV/7mrXf/AsGP/wLBk/8Cw
+        Z//AsGv/wLBu/8Cwcf/AsHL/wK9w/8KycP/Dtn//7Ojd/+7q4P/r6N3/6ubY/+bhz//o5dv/6Ofi/62r
+        n/+loI//qaWW/ws1T/8WSmr/Ektn9gxEYjAAAAAAAAAAAAAAAAAAAAAAuKdUAb2pUKSpkBaop44WmqeO
+        F5mmjRaXpYwVl6WMFZaljBeVmIcXnmZrDLZaaQfIgocz9ZCTRP+SlET/kJNC/0VjCv8/YAX/mplO/8Ky
+        cP/Cs3L/wrJz/8Kzcv/Ds2//w7Rt/8S0a//EtGr/xLJo/8e3b/+7rF3/493J/+nl1//k3s3/4NnE/9fO
+        s//VzLD/3NbD/7i1rP+jnY7/rqmX/yRJWf8MP1//EUpn9AxEYi0AAAAAAAAAAAAAAAAAAAAAAAAAAL2s
+        XUixmjCypYoOlaeOGJOojxuTqZAek6yTIJStlCKVrZUklXh6FLY5XAD/N1oA/zlcAP9CYQn/OVwA/zda
+        AP9HZQz/V28a/3KBLv+FjD3/op9S/8e4bv/Ht27/x7hu/8a3cP/Gt3L/xLZ0/8S1dv/Csnf/wbOC/9/Y
+        xP/k3cv/5uHR/+XfzP/q5df/8/Hv/8TDvP+fm4v/s6ya/zVVYf8DNFf/EEhl9QxEYiEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAC9qlWFrZMeoK2UIZGwlyeTsZkrk7KaLJOzmzCUtJ0yk52RKp9YbAzQU2sQ8Exp
+        Ef85XAD/OVwA/zlcAP85XAD/OVwA/zlcAP85XAD/XXQe/7etav/Gt3r/xbZ6/8W2ef/HuHj/x7l3/8i6
+        dP/Nv3z/vq9j/+fk0//w7eT/7uvg/+rm1v/l383/6OXY/8/PyP+dmov/ubGd/0pkaf8AK0//D0dk9AxE
+        Yh4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC9q10uvqtNsLKbKpO1nTOSt6E4k7ijPJO6pT+Uu6ZClLyn
+        RJO7pkCLvatNp8K5ef85XAL/OVwA/2+AMf+holz/eYY6/3mGOf9jeCf/WXAd/6akXf/MvXv/zL14/8y9
+        dv/MvHb/zL12/8u9d//LvHb/xrh0/8e6i//i28j/3tfB/9jQtf/Z0Lb/4tzJ/9nZ0v+gnZD/u7Gf/1pv
+        c/8AKk3/DUVj9gxEYhUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAw7Fjdr+oRqW8pUGTvqlIlL+s
+        TJTBrU+Vwq5RlcKvU5XDsFKQw7BVlnGCNP83WgD/VG4Z/8W7ff/RxIj/0sSH/9LFhv/Jvnz/nqBX/6up
+        YP/EuXX/zb99/8y8ff/Ku33/yLl9/8e4ff/HuHz/yryA/7mpZP/h2sb/6+nd/+7r3//r5tT/8e/n/+fo
+        5f+loZT/ua+c/2Z4eP8ALE3/DUVj+AxEYg8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuaZVDcm3
+        Z6PCr1GaxLFXlsWzW5fHtF6YyLZgmci3YpjJt2OXop5Hoz5gBf43WgD/padj/9bKj//VyY7/zsOH/723
+        d/+bnln/Y3gn/zlcAP+OlEz/zL2C/82+g//Nv4H/zb9+/86/e//Nvnn/z755/8i6cP/OxJT/8O3l/+zo
+        3P/l3sn/5N/N/+nn3v+qqJr/tKyZ/3J/fv8ALE//DERi/AxEYgkAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAMS0aWXOvW+zyLdhm8q6aJzLu2udzLxtnsy8bp/NvXCfqKRRo2V5JvBheCb/x7+G/9DE
+        jv+5tXr/m59d/2N5J/85XAD/OVwA/zlcAP+WnFL/1MeK/9PGiP/TxYX/0sOC/8/Af//LvXz/yrp4/8y9
+        gP+/r3T/1Mqu/9/Xwv/e177/4tzH/+3s4/+wraL/r6eV/3mDgv8BMVL/DERi/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALekTwvPwX2tz8B0qs6+c6LPwHej0MF5pNHCe6TRw32k0MJ5mqSk
+        X9e5t37/xb+I/6CmZf9lfCv/N1oA/zlcAP83WgD/Ynkn/8nCh/+rq2v/tbJ1/9DCi//OwIn/y72E/8u8
+        gP/LvH7/y7x7/8y9e//EtGr/18+o//Hu5v/u697/7+zd//f38v+7uK3/rKSS/32Ef/8KO1v/DERi+wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC/rV9G18mKvtLFgKjUxoOo1MeFqdXH
+        iKrWyYmr1smIo8nAg8C4uX//Zn0t/zdaAP85XAD/N1oA/0poEP94hz7/go5H/09sFv83WgD/bH8w/8W+
+        gv/Ux4v/0cWE/9LEgv/Rwn//z8F9/86/eP/QwH3/uadf/+HcyP/h28f/29K3/9bOsv/Ewrf/qaKR/4aK
+        gv8URmT/DERi9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0cOFntzQ
+        mL7Yy5Cu2c2Sr9nNlLDazpWw2s6UrNfLlrqhpmn/PV8E/zdaAP85XAD/N1oA/0poEP8+Xwf/N1oA/zlc
+        AP83WgD/OVwA/7i1df/WyYz/0sWJ/9DCh//OwIP/y72C/8q8gv/MvoT/w7R2/9DDnf/n4tL/6OPO//j2
+        7f/NzMT/p6GO/4uNh/8UR2b/DEVi8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAu6hVLt3Rn8je0p+43dKett3Snrbe06C33tOgtN7Sn7XMyJj+cYY6/zlcAP9GZg3/SGcQ/1Jv
+        G/9uhDj/S2kT/zlcAP85XAD/jJZP/8i9iP/Gu4P/0cOL/9HDiP/SxIn/08aJ/9PFh//SxIH/1MWF/8Cx
+        av/u697/7+vc//r38P/Y2NH/qqOR/4qMhf8QRGT/DUVi6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAM2+foPm3bPS4denvOHXqLzi2Kq84tiquuHWqbjj2bH2uLmG/4uY
+        Vv+Unl//v76P/8vGm/9lfDD/N1oA/2B4J/+qrG//oaZk/0ZlDv+doVz/0MWL/9rNlf/ZzZX/18uR/9TI
+        i//SxIb/0sSI/8GycP/Ow5//2dC2/9fOsf/d2c//rKSU/4uLhP8PRGT/DEVi5gAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALelThjh2KzS5+C6yeTbs8Ll3LPC5dy0weXc
+        s7ze1K7y4dey/+Pbt//m4L//w8SZ/2V+Mf83WgD/a4A1/26CNf9CYgr/OVwA/zdaAP96i0D/08mY/9bL
+        mv/TxpT/0MOP/8/CjP/PwYn/zsGE/9DBhf+/sGz/6eXV//j27v/v7+r/r6mX/4qMg/8PRmX/DUVi1wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADFtW5m7ebH3+jh
+        vcro4L7H6OC9x+fgu8Hn4L/q7ebK/+7pzv/FyJ7/Ynsw/zpdAf84WgH/OFoB/zlcAP83WgD/TmsV/4iT
+        Uv+rrnX/08qc/9nPn//b0J3/2s2Z/9nNlP/Xyo//1ceJ/9bJif/JuXP/39i2/+/s3//08+3/s62d/4yN
+        hP8MRGL/DERi1QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA39aswPDs0t3s5cbO6+TGzevlxsfq5cvq6+XL/+Hdv/+Mml7/OVwA/zlcAP85XAD/OVwA/09s
+        F/+PnFz/ub6M/8PEk/+nrnT/jptY/8fEj//f1aT/28+d/9fMlv/UyJH/0sSM/8/Ahv/MvYP/v7B9/9bM
+        rv/v6+L/ubWn/5KQh/8KQF3/DERixQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAxLRsV/Tv3fHu6dHW7unQ1fLu2Njt59Pu7+nT/+/p0f+2vI3/R2YS/zlc
+        AP9Naxj/kZ9h/7zClP/GyJ7/sLaE/26DO/85XAD/N1oA/5uiZP/Rxpj/1sqb/9bKl//UyJP/1MaO/9LF
+        hv/UxoX/xbVp/9/VsP//////v7uu/5eUiv8JPln6DERiwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANvRpLz49uju9PHh4vXx4eD08eHq8+/d//Dr
+        0f/U07D/kqBk/4eXV/+4vZH/wsSe/6yzgv9ugzz/OVwA/zdaAP85XAD/Ol0E/26DN/+/von/4dao/9/U
+        o//b0Jn/2MuO/9XHiv/RwoP/z8GC/8m7hv/p5NX/x8K6/5qWjf8NQVruDERitwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALupVi/39ej7+vnv7/f0
+        5+Xv6tfq6ODH/+bgxP/l38T/3dq6/8jMqP+xuo7/cohF/zlcAP83WgD/OVwA/2uCOv/GyJz/rbN+/zxe
+        A/+epmr/2M6i/9nNnf/Ux5T/0cOP/8/Biv/OwYb/z8CC/8i4ev/o4s7/0M7J/5qXjv8OQlrlDERitAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADZz56q///9//b05uTx7tvl8u3b//Pu3f/18eH/9PHh/7O+lP85XAD/OVwA/zlcAP9ogTb/ysum/+Td
+        v//i2bj/wcCS/2N7LP9lfC7/ubmE/9vPnv/az5r/2cyV/9jLj//WyIr/08SB/9DCfP/f1an/2NfU/5uX
+        kP8QQ1naDERiqwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAC1oEUP7enS6Pz78/L18uPo9PHi//Px4//z7t//7una/7i/l/9BYgz/Xngt/87P
+        r//r5s//7efQ/+3mzf/s5sz/6OLE/6ewev84WwH/mqNm/9fPnv/e05//3M6Y/9rOk//Zy47/2suF/9nL
+        hP/dzon/zMWu/56cmP8QQ1jODERipQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzL9/eP/////69/D08e3g//Pv4//z8eT/9fLl/+fn
+        1f/k5tH/+PTn//Xy4v/18uD/9PDc//Lt1v/y69P/7+nN/9PRqP9EYyT/d4pB/+nfsP/p3qz/59qi/+DU
+        nf/d0JP/xrmC/8m8fv+zqXj/ybyJ/6Sgnf8RQ1jJDERinAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAs55CBuznz+f//////Pr1//z6
+        8//7+vL/+/nw//r48P/59+3/+vjt//v46v/8+en//fno///65f/69d3/9e/S/+vkwv/g2bn/29Op/722
+        kP/CupP/rqV9/5yWdf+knHX/amRQ/6CXdv+dl4L/2ceG/62omf8PQlTFDERilgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMGw
+        ZE7//////////////f////7////9/////f////j/+vfs//Xy5f/k3sj/1tPB/7+4ov+gm4r/pJ2D/4qE
+        bf+XkoH/i4Rs/5SOe/+tqpj/oph8/7Svmf/AvKn/sqWA/724qv+ooon/tq+Y/7q3vP8QQEybDERiPAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADm37/N/////+Ti2v/h3tH/x8S4/7i0pP+uqZv/qKSa/6ymlv+Zl4v/m5SF/52Z
+        jP+5t67/oJiD/725q/+5tqj/o5yH/8PAsf+cmYj/pqOP/7O2r/6NjoX+cnxy8cHDwfpXdnixUWhtxF2T
+        iYQ8gJQUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADCr1tA//78/62qpP+yr6b/qKKW/6yonv/Bvrf/tq6V/7y5
+        rP/Fw7b/mJSE/8DAtf+NkYH9cHht/b/Dvv1faF/nl5aO8K2xr/CIjInpj5GO5Lm5tvSlpJ3pfn514ry5
+        tPWsrqLQhZB6gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAw7uatdDOyPa0tKj/jpKA/66w
+        qPuPkYP5Z21f7bi7tfd0fHDpbXdw67a7t/NvdHLvkpGL8Li2tPmtq6Tvqaac48DBuuPDxbrSnqaXs7fL
+        uJGuybRxudfAYLDUuzq+5cs1u+zNAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwNnKbt7k
+        37ahspuraXhs58fJxPKGhH/vkZCH6sTDvfW0tKzmubqu1ru+tMrP2c29tceykb3VwHq218BMtd7ELb3w
+        0gMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAt+bNFt/g29nS0MrfubOps8rTx6fN39GLut/GPr7jyybH79cLAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPr6+gP8/PwBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////8AAP//
+        /////wAA////////AAD/////j/8AAP////wH/wAA////wAH/AAD///wAAH8AAP//wAAAHwAA//4AAAAH
+        AAD/4AAAAAEAAP/AAAAAAAAA/8AAAAAAAAD4AAAAAAcAAMAAAAAABwAAgAAAAAAHAACAAAAAAAcAAIAA
+        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
+</value>
+  </data>
+</root>
