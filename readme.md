@@ -1,3 +1,5 @@
+下記文章はFork先のままです。ソースをコンパイルしないと日本語はありません
+
 XML Notepad provides a simple intuitive User Interface for browsing and editing XML documents. There are two ways to install it:
 1. [ClickOnce® installer](http://www.lovettsoftware.com/downloads/xmlnotepad/readme.htm) - this is the most convenient, install it directly from the web browser.
 2. [Standalone downloadable installer](http://www.lovettsoftware.com/downloads/xmlnotepad/xmlnotepadsetup.zip) if you need something that works offline.
