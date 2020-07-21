@@ -54,7 +54,7 @@
     <TargetPlatformVersion>10.0.18362.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.18362.0</TargetPlatformMinVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+    <AppxPackageSigningEnabled>False</AppxPackageSigningEnabled>
     <PackageCertificateThumbprint>AFFF93C9E6AD77B2519D1778A820B789F9F1E31D</PackageCertificateThumbprint>
     <EntryPointProjectUniqueName>..\Application\Application.csproj</EntryPointProjectUniqueName>
     <GenerateAppInstallerFile>True</GenerateAppInstallerFile>
